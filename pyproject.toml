@@ -1,0 +1,15 @@
+[project]
+name = "patent-llms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.0.0",
+    "dotenv>=0.9.9",
+    "huggingface-hub>=0.34.4",
+    "jupyter>=1.1.1",
+    "lxml>=6.0.0",
+    "retry>=0.9.2",
+    "tdqm>=0.0.1",
+]
